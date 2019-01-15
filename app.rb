@@ -13,6 +13,6 @@ post '/' do
   @name=@params[:name]
   @breed=@params[:breed]
   @age=@params[:age]
-  erb :displays_puppy
+  erb :display_puppy
 end
 end
