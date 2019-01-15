@@ -5,8 +5,6 @@ get '/' do
   erb :index
 end
 
-
-
 post '/' do
   @name=@params[:name]
   @breed=@params[:breed]
