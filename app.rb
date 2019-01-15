@@ -6,6 +6,6 @@ get '/' do
 end
 
 get '/' do
-  erb: new
+  erb :new
 end
 end
