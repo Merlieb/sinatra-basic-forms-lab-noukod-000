@@ -9,7 +9,7 @@ get '/new' do
   erb :create_puppy
 end
 
-get '/' do
+post '/' do
   @name=@params[:name]
   @breed=@params[:breed]
   @age=@params[:age]
