@@ -5,7 +5,14 @@ get '/' do
   erb :index
 end
 
-get '/NEW' do
+get '/new' do
   erb :create_puppy
+end
+
+get '/' do
+  @name=@params[:name]
+  @breed=@params[:breed]
+  @age=@params[:age]
+  erb :display_puppy
 end
 end
